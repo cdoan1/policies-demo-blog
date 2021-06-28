@@ -29,43 +29,7 @@ spec:
                 kind: Namespace
                 apiVersion: v1
                 metadata:
-                  name: namespacedemo
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
                   name: policies
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
-                  name: etcd-config
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
-                   name: openshift-compliance        
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
-                   name: kafka  
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
-                   name: openshift-logging  
-            - complianceType: musthave
-              objectDefinition:
-                kind: Namespace
-                apiVersion: v1
-                metadata:
-                   name: cluster-resource-overwrite
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
